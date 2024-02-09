@@ -1,0 +1,36 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Text1 from '../components/Text1.astro';
+import Text2 from '../components/Text2.astro';
+import Text3 from '../components/Text3.astro';
+import Text4 from '../components/Text4.astro';
+import Text5 from '../components/Text5.astro';
+import Text6 from '../components/Text6.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout title="SpaceX - Missions: Mars">
+	
+	<main>
+	<Header />
+	<Text1 />
+	<Text2 />
+	<Text3 />
+	<Text4 />
+	<Text5 />
+	<Text6 />
+	</main>
+	<Footer />
+</Layout>
+
+<style>
+	h1 {
+		text-rendering: optimizeLegibility;
+	}
+
+	p::selection {
+    background: rgb(255, 255, 255);
+    color: black;
+}
+</style>
